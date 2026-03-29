@@ -1,0 +1,18 @@
+Customer Churn Prediction - Model Comparison Summary
+===================================================
+
+Dataset Used: IBM Telco Customer Churn Dataset
+Field Mapping:
+Age -> tenure
+Income -> MonthlyCharges
+Purchases -> TotalCharges
+Membership -> Contract
+Churn -> Churn
+
+Logistic Regression Accuracy : 0.7790
+Random Forest Accuracy       : 0.7640
+XGBoost Accuracy             : 0.7818
+Rule-Based Logic Accuracy    : 0.7178
+
+Best Model: XGBoost
+Reason: It achieved the highest accuracy and captured churn patterns most effectively.
